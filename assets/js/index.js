@@ -6,4 +6,4 @@
 			+ [date.getHours(), date.getMinutes(), date.getSeconds()].join(':');
 		dateDom.innerText = currDate;
 	}, 1e3);
-});
+})();
